@@ -1,3 +1,0 @@
-document.getElementById('RemoveReadonly').onclick = function() {
-    document.getElementById('KBInput').removeAttribute('readonly');
-};
