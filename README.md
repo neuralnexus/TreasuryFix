@@ -26,7 +26,7 @@ This code runs in your computer browser and only affects sessions opened from yo
 For Firefox users: 
 1. Install GreaseMonkey: https://addons.mozilla.org/en-US/firefox/addon/greasemonkey/ 
 2. Select ![import a backup](https://github.com/neuralnexus/TreasuryFix/blob/main/assets/gm_import.png?raw=true)
-3. You are done. 
+3. Upload the backup file. 
 
 For Chrome (or Chromium-based) users:
 1. Install 
