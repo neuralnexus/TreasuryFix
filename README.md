@@ -1,1 +1,13 @@
 # TreasuryFix
+
+US Treasury Series I Bonds pay an inflation adjusted rate + a fixed rate of interest. As of 1/1/2022, the inflation adjusted rate of interest is 7.12%. 
+There is a purchase limit of $10,000 per SSN per year through TreasuryDirect.gov. 
+
+Many people (myself included) think this is a pretty good deal and like to buy i-bonds. Unfortunately, TreasuryDirect.gov is one of the worst websites known to man. It is very painful to use and has a number of terrible design/UX decisions from like 2003 that will make you angry every time you encounter them. 
+
+That's why this project exists. TreasuryFix is a client-side javascript tool that will just make the experience of using Treasury Direct a lot less painful for you. 
+
+Here's one of my favorite (most hated) features of the Treasury Direct website: 
+
+![The On-Screen-Keyboard](https://github.com/neuralnexus/TreasuryFix/assets/OSK.jpg?raw=true)
+
