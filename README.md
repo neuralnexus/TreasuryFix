@@ -29,4 +29,5 @@ For Firefox users:
 3. Upload the backup file. 
 
 For Chrome (or Chromium-based) users:
-1. Install 
+1. Install TaperMonkey: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
+2. Select 
