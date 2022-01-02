@@ -15,11 +15,11 @@ TreasuryFix makes using this silly keyboard OPTIONAL instead of REQUIRED. So you
 
 # Security
 
-There is no additional security risk from running this. No traffic is sent to my servers or any servers that you were not communicating with before. Your password is not being logged by this. The code is not complicated and is as simple as I can make it; you can examine it and understand what it does with very little effort. 
+There is no additional security risk from running this. No traffic is sent to my servers or any servers that you were not communicating with before. Your password is not being logged by this. The code is not complicated and is as simple as I can make it; you can examine it and understand what it does with very little effort. There can be security risks from running other user scripts via the extensions linked below. Be careful running scripts you find on the internet. 
 
 # Legal
 
-This code runs in your computer browser and only affects sessions opened from your system. 
+This code runs in your computer browser and only affects sessions opened from your system to the treasury direct site. Use it at your own risk; I don't offer any warranties or support. 
 
 # Installation
 
