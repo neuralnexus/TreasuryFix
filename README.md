@@ -30,4 +30,5 @@ For Firefox users:
 
 For Chrome (or Chromium-based) users:
 1. Install TaperMonkey: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
-2. Select 
+2. Select ![Create a new script](https://github.com/neuralnexus/TreasuryFix/blob/main/assets/tpm_new.png?raw=true)
+3. Paste the script in the TaperMonkey directory there. Then save. 
