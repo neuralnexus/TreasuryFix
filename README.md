@@ -28,7 +28,7 @@ For Firefox users:
 2. Select ![import a backup](https://github.com/neuralnexus/TreasuryFix/blob/main/assets/gm_import.png?raw=true)
 3. Upload the backup file. 
 
-For Chrome (or Chromium-based) users:
+For Chrome (or Chromium-based broswers incluidng: Chromium, Vivaldi, Opera, Brave, Microsoft Edge, Torch, Epic...) users:
 1. Install TaperMonkey: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
 2. Select ![Create a new script](https://github.com/neuralnexus/TreasuryFix/blob/main/assets/tpm_new.png?raw=true)
 3. Paste the script in the TaperMonkey directory there. Then save. 
