@@ -9,7 +9,7 @@ That's why this project exists. TreasuryFix is a client-side javascript tool tha
 
 Here's one of my favorite (most-hated) features of the Treasury Direct website: the mandatory On-Screen-Keyboard. 
 
-TreasuryFix makes using this silly keyboard OPTIONAL instead of REQUIRED. So you can copy/paste in your password or use a password manager to auto-fill it. Yes, that's right. TreasuryDirect doesn't let you type in your own password by default. This project was born out of sheer frustration. 
+TreasuryFix makes using this silly keyboard OPTIONAL instead of REQUIRED. So you can copy/paste in your password or use a password manager to auto-fill it. Yes, that's right. TreasuryDirect doesn't let you type in your own password by default... It is terrible. 
 
 ![The On-Screen-Keyboard](https://github.com/neuralnexus/TreasuryFix/blob/main/assets/OSK.jpg?raw=true)
 
