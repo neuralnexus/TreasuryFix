@@ -1,0 +1,168 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html xmlns="http://www.w3.org/1999/xhtml"><head>
+	<title>Access Your TreasuryDirect Account</title>
+<script charset="UTF-8">
+window['adrum-start-time'] = new Date().getTime();
+(function(config){
+    config.appKey = 'EUM-AAB-AWU';
+    config.adrumExtUrlHttp = 'http://treasurydirect.gov/js/appdynamics/adrum/td';
+    config.adrumExtUrlHttps = 'https://treasurydirect.gov/js/appdynamics/adrum/td';
+    config.beaconUrlHttp = 'http://appdyn.fiscal.treasury.gov:80';
+    config.beaconUrlHttps = 'https://appdyn.fiscal.treasury.gov:443';
+    config.xd = {enable : false};
+})(window['adrum-config'] || (window['adrum-config'] = {}));
+if ('https:' === document.location.protocol) {
+    document.write(unescape('%3Cscript')
+ + " src='https://treasurydirect.gov/js/appdynamics/adrum/td/adrum-4.3.5.0.js' "
+ + " type='text/javascript' charset='UTF-8'"
+ + unescape('%3E%3C/script%3E'));
+} else {
+    document.write(unescape('%3Cscript')
+ + " src='http://treasurydirect.gov/js/appdynamics/adrum/td/adrum-4.3.5.0.js' "
+ + " type='text/javascript' charset='UTF-8'"
+ + unescape('%3E%3C/script%3E'));
+}
+</script><script src="OTP_files/adrum-4.3.5.0.js" type="text/javascript" charset="UTF-8"></script>
+	<meta name="BPD.source" content="602-One Time Password">
+
+	<meta http-equiv="content-type" content="text/html; charset=windows-1252">
+
+	<link type="text/css" rel="stylesheet" href="OTP_files/global_null.css">
+	<link type="text/css" rel="stylesheet" media="screen" href="OTP_files/rs_screen.css">
+	<link type="text/css" rel="stylesheet" media="print" href="OTP_files/rs_print.css">
+
+	<link type="text/css" rel="stylesheet" media="screen" href="OTP_files/rs_screen_virtualkeyboard.css">
+	<link type="text/css" rel="stylesheet" media="print" href="OTP_files/rs_print_virtualkeyboard.css">
+
+		
+    <script type="text/javascript">
+		if (self === top) {
+		    var antiClickjack = document.getElementById("antiClickjack");
+		    antiClickjack.parentNode.removeChild(antiClickjack);
+		} else {
+		    top.location = self.location;
+		}
+	</script>
+		
+	<script type="text/javascript" src="OTP_files/FlashInterface.js"></script>
+	<script type="text/javascript" src="OTP_files/MachineInfo.js"></script>
+	
+	<script type="text/javascript">
+		function getM2MFingerprint() {
+			try {
+				var secret = new MachineSecret(true);
+				document.Login.M2MFingerprint.value = secret.getMachineFingerprint();
+				document.Login.M2MCookies.value = navigator.cookieEnabled;
+			} 
+			catch (err) {
+				///swallow error
+			}
+		}
+	</script>
+		
+</head>
+
+<body onload="getM2MFingerprint()">
+	
+	<div id="top">
+		<div id="sublocal">
+			<ul>
+				<li id="help"><a href="https://www.treasurydirect.gov/indiv/help/TDHelp/default.htm" target="_blank" rel="noopener noreferrer">Help</a></li>
+			</ul>
+		</div>
+	
+		<div id="utility">
+			<ul>
+				<li><a href="#navskip"><img src="OTP_files/navskip.gif" alt="skip to main content" width="3" height="3"></a></li>
+				<li><a href="http://www.treasurydirect.gov/tdhome.htm" target="_blank" rel="noopener noreferrer">TreasuryDirect Home</a></li>
+				<li class="pipe">&nbsp;|&nbsp;</li>
+				<li><a href="http://www.fiscal.treasury.gov/" target="_blank" rel="noopener noreferrer">Fiscal Service Home</a></li>
+				<li class="pipe">&nbsp;|&nbsp;</li>
+				<li><a href="http://www.treasurydirect.gov/sitemap.htm" target="_blank" rel="noopener noreferrer">Site Map</a></li>
+				<li class="pipe">&nbsp;|&nbsp;</li>
+				<li><a href="https://www.treasurydirect.gov/RS/Contact-Us.do" target="_blank" rel="noopener noreferrer">Contact Us</a></li>
+			</ul>
+		</div>
+</div>	
+	
+	<div id="primaryNav">
+		&nbsp;
+	</div>
+	
+	<div id="content">
+		
+		
+
+
+
+
+
+		
+		<form action="/RS/OTP-Submit.do" method="post" id="Login" name="Login">
+			<br>
+			<div id="accountnumber">
+ACCOUNT_NUMBER</div>
+			
+			<h1>Access Your Account  » <strong>One Time Passcode (OTP)/Register Computer</strong></h1>
+
+			<div class="dividerline">&nbsp;</div>
+			
+			
+				
+				
+					<div id="attention">
+			        	<div id="left_reminder"></div>
+					  	<div id="right">
+			          		<p>We previously sent a One Time Passcode (OTP) to your <span class="redtext">WEB_DOMAIN                          </span> e-mail account. Locate the OTP in your e-mail and enter it below. Watch our <a href="http://www.treasurydirect.gov/indiv/myaccount/myaccount_demo.htm" target="_blank">demo</a> about how to use the OTP and register your computer.                                            </p>
+				      	</div>
+				  	</div>
+				
+				
+			
+			
+			<br>
+			<br>
+			
+			<table>
+        		<tbody><tr style="padding-bottom:10px;">
+            		<td width="405">An OTP is required to access your account from a computer that is not registered.  NOTE:  The OTP is case sensitive.</td>
+                	<td style="vertical-align: top;" width="303"><strong style="vertical-align: top;">Enter your OTP:</strong>&nbsp;&nbsp;
+                		<input type="text" name="otp" size="20" maxlength="20" style="margin-top;-3px" data-ddg-inputtype="unknown" data-com.bitwarden.browser.user-edited="yes" value="ykJ8KJah"><br>
+					</td>
+             	</tr>
+             	<tr style="padding-top:15px;">
+             		<td width="405">Registering this computer will help you 
+save time the next time you log in.  A computer that is not registered 
+will require the use of an OTP each time you log in.</td>
+                	<td style="vertical-align: top;" width="303"><strong style="vertical-align: top;">Click here to register your computer:</strong> <input type="checkbox" name="registerM2M" style="margin-top;-3px" data-com.bitwarden.browser.user-edited="yes" checked="checked"></td>
+             	</tr>
+         	</tbody></table>
+			
+			<p>Registering this computer authorizes the use of persistent cookies and helps us recognize you as an authorized user.</p>
+			
+			<p>If you didn't receive an e-mail containing an OTP, <a href="https://www.treasurydirect.gov/RS/OTP-New.do">we will resend the OTP</a>.</p>
+			
+			<p>If the e-mail address shown above is incorrect, please call Customer Service at (844) 284-2676.</p>
+			
+			<p class="learnmore"><a href="http://www.treasurydirect.gov/indiv/help/TDhelp/help_ug_274-SecFeaturesProtectAcctLearnMore.htm" target="_blank">Learn more about Security Features and Protecting Your Account.</a></p>
+			
+			<br>
+     		<br>
+			
+			<p>
+				<input class="action" type="submit" name="enter.x" value="Submit">
+				<input class="danger" type="submit" name="enter.x" value="Cancel">
+			</p>
+			
+			<!-- Hidden Variables -->
+			<input type="hidden" name="M2MFingerprint" value="director=false&amp;flashVersion=&amp;mimeTypes=application/pdf,text/pdf&amp;mimeTypesCount=2&amp;plugins=PDF Viewer,Chrome PDF Viewer,Chromium PDF Viewer,Microsoft Edge PDF Viewer,WebKit built-in PDF&amp;pluginsCount=5&amp;quickTime=false&amp;realPlayer=false&amp;windowsMediaPlayer=false&amp;accrobatReader=false&amp;svgViewer=false&amp;clearType=false&amp;screenColorDepth=24&amp;screenHeight=1120&amp;screenPixelDepth=24&amp;screenWidth=1792&amp;screenAvailHeigth=1120&amp;screenAvailWidth=1792&amp;screenBufferDepth=undefined&amp;appName=Netscape&amp;appVersion=5.0 (Macintosh)&amp;appMinorVersion=undefined&amp;cookieEnabled=true&amp;cpuClass=undefined&amp;systemLanguage=undefined&amp;userAgent=Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:105.0) Gecko/20100101 Firefox/105.0&amp;userLanguage=undefined&amp;javaEnabled=false&amp;platform=MacIntel&amp;appCodeName=Mozilla&amp;language=en-US&amp;oscpu=Intel Mac OS X 10.15&amp;vendor=&amp;vendorSub=&amp;product=Gecko&amp;productSub=20100101&amp;savePrefs=undefined">
+			<input type="hidden" name="M2MCookies" value="true">
+			<input type="hidden" name="_csrf" value="bb30f7b4-174e-4665-ab82-67e99c74fcd8">
+
+		</form>
+	</div>
+	
+	<div id="footer"><ul><li><a href="http://www.treasurydirect.gov/foia.htm" target="_blank" rel="noopener noreferrer">Freedom of Information Act</a></li><li>|</li><li><a href="http://www.treasurydirect.gov/law_and_guidance.htm" target="_blank" rel="noopener noreferrer">Law &amp; Guidance</a></li><li>|</li><li><a href="http://www.treasurydirect.gov/privacy.htm" target="_blank" rel="noopener noreferrer">Privacy &amp; Legal Notices</a></li><li>|</li><li><a href="http://www.treasurydirect.gov/terms.htm" target="_blank" rel="noopener noreferrer">Website Terms &amp; Conditions</a></li><li>|</li><li><a href="http://www.treasurydirect.gov/accessibility.htm" target="_blank" rel="noopener noreferrer">Accessibility</a></li><li>|</li><li><a href="http://www.treasurydirect.gov/data_quality.htm" target="_blank" rel="noopener noreferrer">Data Quality</a></li></ul><p><a href="http://www.fiscal.treasury.gov/" target="_blank" rel="noopener noreferrer">U.S. Department of the Treasury, Bureau of the Fiscal Service</a></p></div>	
+	
+
+</body></html>

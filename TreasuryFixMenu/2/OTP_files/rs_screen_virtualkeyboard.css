@@ -1,0 +1,54 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~                                          ~
+~  TreasuryDirect Application Stylesheet   ~
+~  For use with SCREEN on Keyboard         ~
+~                                          ~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* -----------------------------------------
+|                                          |
+|  Establish Look and Feel of Keyboard     |
+|                                          |
+------------------------------------------*/
+
+#virtual_keyboard {
+	background-color: #eee;
+	border: 1px solid #999;
+	display: block;
+	margin: 0px 0px 0px 140px;
+	padding: 8px 0px 4px 5px;
+	width: 36em;
+	text-align: center;
+}
+
+#virtual_keyboard .row_of_keys {
+	clear: both;
+}
+
+#virtual_keyboard .row_of_keys input.keys_regular {
+	background-color: #fff;
+	border-top: 2px solid #ddd;
+	border-right: 2px solid #999;
+	border-bottom: 2px solid #999;
+	border-left: 2px solid #ddd;
+	color: #666666;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0px 5px 5px 0px;
+	padding: 4px 5px 4px 5px;
+	width: 30px;
+}
+
+#virtual_keyboard .row_of_keys input.keys_special {
+	background-color: #666666;
+	border-top: 2px solid #ddd;
+	border-right: 2px solid #999;
+	border-bottom: 2px solid #999;
+	border-left: 2px solid #ddd;
+	color: #fff;
+	font-size: 1em;
+	font-weight: bold;
+	margin: 0px 5px 5px 0px;
+	padding: 4px 5px 4px 5px;
+	width: 102px;
+}

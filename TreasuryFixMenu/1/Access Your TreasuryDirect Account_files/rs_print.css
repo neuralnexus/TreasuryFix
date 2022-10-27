@@ -1,0 +1,922 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~                                          ~
+~  TreasuryDirect Application Stylesheet   ~
+~  For use with PRINT on Application       ~
+~                                          ~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+ 
+/* -----------------------------------------
+|                                          |
+|  HTML Tag Overrides - Global             |
+|                                          |
+------------------------------------------*/
+
+a:link {
+	color: #36c;
+}
+
+a:visited {
+	color: #36c;
+}
+
+a:hover {
+	color: #6c0;
+}
+
+a:active {
+	color: #36c;
+}
+
+body {
+	background-color: #fff;
+	color: #333;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 76%;
+	margin: 0px;
+	padding: 0px;
+}
+
+form {
+	margin: 0px 0px 0px 0px;
+}
+
+img {
+	border: 0px; 
+}
+
+/* -----------------------------------------
+|                                          |
+|  Top Section - Div                       |
+|                                          |
+------------------------------------------*/
+
+#top {
+	background-image:  url("/images/rs/td_logo.gif");
+	background-position: 0 .3em;
+	background-repeat: no-repeat;
+	height: 55px;
+	padding: 5px 0px 0px 0px;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Utility Navigation Controls             |
+|                                          |
+------------------------------------------*/
+
+#utility {
+	display: none;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Primary Navigation Controls             |
+|                                          |
+------------------------------------------*/
+
+#primaryNav {
+	display: none;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Sublocal Navigation Controls            |
+|                                          |
+------------------------------------------*/
+
+#sublocal {
+	display: none;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Content Section - Div                   |
+|                                          |
+------------------------------------------*/
+
+#content {
+	padding: 12px 12px 12px 12px;
+	width: 650px;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Header Tag Controls                     |
+|                                          |
+------------------------------------------*/
+
+#content h1 {
+	color: #999;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+}
+
+#content h1 strong {
+	color: #f60;
+}
+
+#content h1 span { 
+	font-size: .5em;
+	color: #f60;
+}
+
+#content h2 {
+	color: #36c;
+	font-size: 1.2em;
+	margin: 0px 0px 10px 10px;
+}
+
+#content h3 {
+	border-bottom: 1px dashed #999;
+	color: #36c;
+	font-size: 1.0em;	
+	margin: 12px 0px 6px 10px;
+	padding: 0px 0px 2px 0px;
+}
+
+#content h3.noline {
+	border-bottom: 0px;
+}
+
+#content h3 strong {
+	color: #f60;
+}
+
+#content h4 {
+	color: #f60;
+	font-size: .9em;
+	margin: 0px 0px 6px 10px;
+}
+
+#content h5 {
+	color: #666;
+	font-size: 0.9em;	
+	margin: 0px 0px 10px 10px;
+}
+/* -----------------------------------------
+|                                          |
+|  Form Input Field Controls               |
+|  (Button, Text, Select, Radio, Textarea) |
+|                                          |
+------------------------------------------*/
+
+#content input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	padding: 1px 1px 1px 3px;
+}
+
+#content input.action {
+	background-color: #36c; 
+	border-color:#ddd; 
+	border-width: 1px; 
+	color: #fff; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	overflow: visible; 
+	padding: 2px 4px 2px 4px;	
+	margin: 2px 7px 0px 0px;
+}
+
+#content input.actioninline {
+	background-color: #36c; 
+	border-color:#ddd; 
+	border-width: 1px; 
+	color: #fff; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	overflow: visible; 
+	padding: 2px 4px 2px 4px;	
+	margin: 2px 7px 0px 5px;
+}
+
+#content input.danger {
+	background-color: #f60; 
+	border-color:#ddd; 
+	border-width: 1px; 
+	color: #fff; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	overflow: visible; 
+	padding: 2px 4px 2px 4px;	
+	margin: 2px 7px 0px 0px;
+}
+
+#content input.disabled {
+	background-color: #fff; 
+	border-color: #666; 
+	border-width: 1px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	overflow: visible; 
+	padding: 2px 4px 2px 4px;	
+	margin: 2px 7px 0px 0px;
+}
+
+#content input.pixelsubmit {
+	padding: 0px;	
+	margin: 0px;
+}
+
+#content select {
+	background-color: #fff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	padding: 2px;
+}
+
+#content textarea {
+	background-color: #fff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	padding: 2px;
+}
+
+#content textarea.noscrollbar {
+	background-color: #fff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	overflow: hidden;
+	padding: 2px;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Paragraph Controls                      |
+|                                          |
+------------------------------------------*/
+
+#content p {
+	font-size: .9em;
+	line-height: 1.3em;
+	margin: 0px 0px 8px 10px;
+	text-align: left;
+}
+
+#content p.radiolineup {
+	font-size: 1em;
+	line-height: 1.3em;
+	margin: 0px 0px 16px 25px;
+	text-align: left;
+}
+
+#content p span {
+	color: #f60; 
+}
+
+#content span.emphasis {
+	color: #666; 
+	font-weight: bold;
+}
+
+.learnmore {
+	display: none;
+}
+
+#content p.dottedline {
+	border-bottom: 1px dashed #999;
+	color: #36c;	
+	margin: 12px 0px 6px 10px;
+	padding: 0px 0px 2px 0px;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Table Controls                          |
+|                                          |
+------------------------------------------*/
+
+#content table {	
+	border-collapse: collapse;
+	font-size: .9em;
+	margin: 0px 0px 14px 10px;
+}
+
+#content table.border {
+	border: 1px solid #ddd;
+}
+
+#content table.lineup td.alignright {
+	width: 18em;
+}
+
+#content table.lineup td.alignrighttop {
+	width: 18em;
+}
+
+#content th {
+	background-color: #36c;	
+	color: #eee;
+	margin: 0px 0px 0px 0px;
+	padding: 4px 10px 4px 5px;
+	text-align: left;
+}
+
+#content th a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#content th a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#content td {
+	padding: 4px 10px 4px 5px;
+	text-align: left;
+}
+
+#content td span {
+	color: #f60;
+}
+
+#content td.calendar {
+	color: #333;
+	text-align: center;
+}
+
+#content td.calendar a.pending {
+	background-color: #eee;
+	border: 1px solid #f60;
+	color: #36c;
+	font-weight: bold;
+	padding: 2px;
+	text-decoration: none;
+}
+
+#content td.calendar a.popup {
+	color: #333;
+	padding: 2px;
+	text-decoration: none;
+}
+
+#content td.calendar a.popup strong {
+	background-color: #eee;
+	border: 1px solid #f60;
+	color: #36c;
+	padding: 2px;
+}
+
+#content .altrow1 {
+	background-color: #fff;
+	margin: 0px;
+}
+
+#content .altrow2 {
+	background-color: #ddd;
+	margin: 0px;
+}
+
+#content .totals {
+	background-color: #ccc;
+	color: #333;
+}
+
+#content .orange{    
+font-weight: bold;
+color: #f60;	
+	margin: 0px 0px 6px 10px;
+	}
+	
+
+#content table.registration {
+	margin-bottom: 2px;
+}
+
+
+/* -----------------------------------------
+|                                          |
+|  Alignment Controls                      |
+|                                          |
+------------------------------------------*/
+
+#content .alignright {
+	text-align: right;
+	white-space: nowrap;
+}
+
+#content .alignrighttop {
+	padding-top: 4px;
+	text-align: right;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+#content .aligncenter {
+	text-align: center;
+}
+
+
+.leftfloat {
+float: left; 
+width: 125px;
+margin-right:0px; 
+padding-right:0px;
+
+}
+
+.leftfloat2 {
+float: left;
+width: 250px;
+margin-left:0px;
+padding-left:0px;
+
+}
+
+/* -----------------------------------------
+|                                          |
+|  List Controls                           |
+|                                          |
+------------------------------------------*/
+
+#content ul {
+	list-style-type: none;
+	margin: .2em .2em .2em .6em;
+	padding: 0px 0px 10px 15px;
+}
+
+#content ul li {
+	background-image:  url("../images/rs/contentbullet.gif");
+	background-position: 0 .6em;
+	background-repeat: no-repeat;
+	font-size: .9em;
+	line-height: 1.4em;
+	padding-left: .6em;
+}
+
+ #content ol li ul li, #content ol li ul li ol li ul li {
+	background-image:  url("../images/rs/contentbullet.gif");
+	background-position: 0 .6em;
+	background-repeat: no-repeat;
+	font-size: 1em;
+	line-height: 1.4em;
+	padding-left: .6em;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+#content ol {
+	margin: .2em .2em .2em .6em;
+	padding: 0px 0px 0px 35px;
+}
+
+#content ol li {
+	background-image:none;
+	font-size: .9em;
+	line-height: 1.4em;
+	padding: 0px 0px 0px;
+	
+}
+
+
+#content ol li ul li ol li, #content ol li ol li {
+	background-image:none;
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom:0;
+}
+
+
+/* -----------------------------------------
+|                                          |
+|  Specialized Section Controls            |
+|                                          |
+------------------------------------------*/
+
+#accountnumber {
+	float: right;
+	font-size: .9em;
+	padding: 0px;
+	text-align: right;
+}
+
+#acctestabstep {
+	float: right;
+	margin: 0px 0px 10px 10px;
+	padding: 0px 0px 0px 0px;
+}
+
+#inboxmessage {
+	background-color: #ddd;
+	border: 1px solid #999;
+	margin: 0px 0px 10px 10px;
+	padding: 5px 5px 0px 5px;
+}
+
+#purchaseExpress {
+	display: none;
+}
+
+.reg {
+	font-size: 65%;
+}
+
+#taxidcert {
+	background-color: #ddd;
+	border: 1px solid #999;
+	margin: 0px 0px 10px 10px;
+	padding: 5px 5px 0px 5px;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Information Changed Controls            |
+|                                          |
+------------------------------------------*/
+
+.changedInfo {
+	border: 2px solid #f60;
+	float: left; 
+	padding: 2px 4px 2px 4px;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Error Message Controls                  |
+|                                          |
+------------------------------------------*/
+
+#errormessage {
+	background-color: #ddd;
+	background-image:  url("/images/rs/error.gif");
+	background-position: 0 .3em;
+	background-repeat: no-repeat;
+	border: 1px solid #999;
+	color: #f30;
+	height: 15px;
+	margin: 0px 0px 10px 0px;
+	padding: 5px 5px 5px 5px;
+}
+
+#errormessage p {
+	line-height: 1.3em;
+	margin: 0px 0px 0px 20px;
+	text-align: left;
+}
+
+#errormessage ul {
+	list-style-type: none;
+	margin: .2em .2em .2em .6em;
+	padding: 0px 0px 0px 6px;
+}
+
+#errormessage ul li {
+	background-image:  url("/images/rs/errorbullet.gif");
+	background-position: 0 .8em;
+	background-repeat: no-repeat;
+	color: #000;
+	line-height: 1.6em;
+	padding-left: .6em;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Information Message Controls            |
+|                                          |
+------------------------------------------*/
+
+#infomessage {
+	background-color: #ddd;
+	background-image:  url("/images/rs/info.gif");
+	background-position: 0 .3em;
+	background-repeat: no-repeat;
+	border: 1px solid #999;
+	color: #36c;
+	height: 15px;
+	margin: 0px 0px 10px 0px;
+	padding: 5px 5px 5px 5px;
+}
+
+#infomessage p {
+	line-height: 1.3em;
+	margin: 0px 0px 0px 20px;
+	text-align: left;
+}
+
+#infomessage ul {
+	list-style-type: none;
+	margin: .2em .2em .2em .6em;
+	padding: 0px 0px 0px 6px;
+}
+
+#infomessage ul li {
+	background-image:  url("/images/rs/infobullet.gif");
+	background-position: 0 .8em;
+	background-repeat: no-repeat;
+	color: #000;
+	line-height: 1.6em;
+	padding-left: .6em;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Footer Section - Div                    |
+|                                          |
+------------------------------------------*/
+
+#footer {
+	display: none;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Links Behaving Like Buttons Controls    |
+|                                          |
+------------------------------------------*/
+
+a.buttonbehavioraction {
+	border-left: 3px solid #fff;
+	color: #fff;
+	font-weight: bold;
+	margin: 0;
+	padding: 2px 10px 2px 10px;
+	text-decoration: none;
+}
+
+a.buttonbehavioraction:link {
+	background-color: #36c;
+	color: #fff;
+}
+
+a.buttonbehavioraction:active {
+	background-color: #36c;
+	color: #fff;
+}
+
+a.buttonbehavioraction:visited {
+	background-color: #36c;
+	color: #fff;
+}
+
+a.buttonbehavioraction:hover {
+	background-color: #999;
+	color: #fff;
+}
+
+a.buttonbehaviordanger {
+	border-left: 3px solid #fff;
+	color: #fff;
+	font-weight: bold;
+	margin: 0;
+	padding: 2px 10px 2px 10px;
+	text-decoration: none;
+}
+
+a.buttonbehaviordanger:link {
+	background-color: #f60;
+	color: #fff;
+}
+
+a.buttonbehaviordanger:active {
+	background-color: #f60;
+	color: #fff;
+}
+
+a.buttonbehaviordanger:visited {
+	background-color: #f60;
+	color: #fff;
+}
+
+a.buttonbehaviordanger:hover {
+	background-color: #999;
+	color: #fff;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Navigational Message Control            |
+|                                          |
+------------------------------------------*/
+
+.navigationmessage {
+	color: #000;
+}
+
+.navigationmessage p {
+	font-weight: bold;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Statement Message Control               |
+|                                          |
+------------------------------------------*/
+
+.statementmessage {
+	color: #f60;
+}
+
+.statementmessage p {
+	font-weight: bold;
+}
+
+/* -----------------------------------------
+|                                          |
+|  BPDLogin Override Controls              |
+|                                          |
+------------------------------------------*/
+
+#logonerror {
+	padding: 0px 0px 10px 0px;
+	font-size: .9em;
+}
+
+#logonerror br {
+	display: none;	
+}
+
+#logonerror b.title {
+	color: #f30;
+	font-size: 1.0em;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+#logonerror b.subtitle {
+	color: #333;
+	font-size: 1.0em;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+
+#logonerror h2 {
+	color: #333;
+	font-size: 1.0em;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+#logonerror h4 {
+	color: #333;
+	font-size: 1.0em;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+
+#logonerror h5 {
+	color: #333;
+	font-size: 1.0em;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+
+#logonerror b.subtitle br {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* -----------------------------------------
+|                                          |
+|  IE  Hacks - force IE to behave          |
+|                                          |
+------------------------------------------*/
+
+.iesinglesubmithack {
+	display: none;
+	visibility: hidden;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Links Behaving Like Buttons  Table      |
+|                                          |
+------------------------------------------*/
+
+.linkbuttontable td {
+	padding: 0px 5px 0px 0px;
+	text-align: left;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Info Direct Controls                    |
+|                                          |
+------------------------------------------*/
+
+#infodirect_exclamation {
+	background-image:  url("/images/rs/infodirect_exclamation.gif");
+	background-position: 0em 0em;
+	background-repeat: no-repeat;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 3px solid #6c0;
+	border-left: 1px solid #999;
+	clear: both;
+	float: right;
+	height: 331px;
+	margin: 0px 0px 10px 0px;
+	width: 253px;
+}
+
+#infodirect_information {
+	background-image:  url("/images/rs/infodirect_information.gif");
+	background-position: 0em 0em;
+	background-repeat: no-repeat;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 3px solid #f60;
+	border-left: 1px solid #999;
+	clear: both;
+	float: right;
+	height: 331px;
+	margin: 0px 0px 10px 0px;
+	width: 253px;
+}
+
+#infodirect_question {
+	background-image:  url("/images/rs/infodirect_question.gif");
+	background-position: 0em 0em;
+	background-repeat: no-repeat;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 3px solid #36c;
+	border-left: 1px solid #999;
+	clear: both;
+	float: right;
+	height: 331px;
+	margin: 0px 0px 10px 0px;
+	width: 253px;
+}
+
+#infodirect_exclamation_cs {
+	background-image:  url("/images/rs/infodirect_exclamation.gif");
+	background-position: 0em 0em;
+	background-repeat: no-repeat;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 3px solid #6c0;
+	border-left: 1px solid #999;
+	clear: both;
+	float: left;
+	height: 331px;
+	margin: 0px 0px 10px 0px;
+	width: 253px;
+}
+
+#infodirect_information_cs {
+	background-image:  url("/images/rs/infodirect_information.gif");
+	background-position: 0em 0em;
+	background-repeat: no-repeat;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 3px solid #f60;
+	border-left: 1px solid #999;
+	clear: both;
+	float: left;
+	height: 331px;
+	margin: 0px 0px 10px 0px;
+	width: 253px;
+}
+
+#infodirect_question_cs {
+	background-image:  url("/images/rs/infodirect_question.gif");
+	background-position: 0em 0em;
+	background-repeat: no-repeat;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 3px solid #36c;
+	border-left: 1px solid #999;
+	clear: both;
+	float: left;
+	height: 331px;
+	margin: 0px 0px 10px 0px;
+	width: 253px;
+}
+
+#infodirect_exclamation  p, #infodirect_exclamation_cs p {
+	color: #333;
+	font-size: .8em;
+	line-height: 1.3em;
+	margin: 35px 65px 0px 10px;
+	padding: 5px;
+	text-align: left;
+}
+
+#infodirect_information  p, #infodirect_information_cs p {
+	color: #333;
+	font-size: .8em;
+	line-height: 1.3em;
+	margin: 35px 65px 0px 10px;
+	padding: 5px;
+	text-align: left;
+}
+
+#infodirect_question  p, #infodirect_question_cs p {
+	color: #333;
+	font-size: .8em;
+	line-height: 1.3em;
+	margin: 35px 65px 0px 10px;
+	padding: 5px;
+	text-align: left;
+}

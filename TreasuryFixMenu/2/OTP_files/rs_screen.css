@@ -1,0 +1,1523 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~                                          ~
+~  TreasuryDirect Application Stylesheet   ~
+~  For use with SCREEN on Application      ~
+~                                          ~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* -----------------------------------------
+|                                          |
+|  HTML Tag Overrides - Global             |
+|                                          |
+------------------------------------------*/
+
+a:link {
+	color: #36c;
+}
+
+a:visited {
+	color: #36c;
+}
+
+a:hover {
+	color: #6c0;
+}
+
+a:active {
+	color: #36c;
+}
+
+body {
+	background-color: #fff;
+	color: #333;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 76%;
+	margin: 0px;
+	padding: 0px;
+}
+
+form {
+	margin: 0px 0px 0px 0px;
+}
+
+img {
+	border: 0px; 
+}
+
+/* -----------------------------------------
+|                                          |
+|  Top Section - Div                       |
+|                                          |
+------------------------------------------*/
+
+#top {
+	background-image:  url("/images/rs/td_logo.gif");
+	background-position: 0 .3em;
+	background-repeat: no-repeat;
+	border-bottom: 2px solid #6c0;
+	height: 55px;
+	padding: 5px 0px 0px 0px;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Utility Navigation Controls             |
+|                                          |
+------------------------------------------*/
+
+#utility {
+	font-size: 0.9em;
+	text-align: right;
+	width: 748px;
+}
+
+#utility ul {
+	float: right;
+	margin: 18px 0px 5px 0px;
+}
+
+#utility li {
+	display: inline;
+	list-style-type: none;
+}
+
+#utility li.pipe {
+	display/**/: none;
+}
+
+#utility a {
+	padding: 0px 7px 0px 3px;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Primary Navigation Controls             |
+|                                          |
+------------------------------------------*/
+
+#primaryNav {
+	background-color: #36c;
+	border-bottom: 3px solid #fff;
+	border-top: 3px solid #fff;
+	color: #fff;
+	font-size: .9em;
+	padding: 2px 10px 2px 10px;
+}
+
+#primaryNav ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#primaryNav li {
+	display: inline;
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+
+#primaryNav li#last {
+	border-right: 3px solid #fff;
+	display: inline;
+	list-style-type: none;
+	margin: 0px;
+	padding: 2px 0px 2px 0px;	
+}
+
+#primaryNav li.pipe {
+	display/**/: none;
+}
+
+#primaryNav a {
+	border-left: 3px solid #fff;
+	color: #fff;
+	margin: 0;
+	padding: 2px 10px 2px 10px;
+	text-decoration: none;
+}
+
+#primaryNav a:hover {
+	background-color: #f60;
+	color: #fff;
+}
+
+#primaryNav a:visited {
+	color: #fff;
+}
+
+body#intro #primaryNav a.intro, body#onlineapplication #primaryNav a.onlineapplication, body#myaccount #primaryNav a.myaccount, body#buydirect #primaryNav a.buydirect, body#currentholdings #primaryNav a.currentholdings, body#managedirect #primaryNav a.managedirect, body#accountinfo #primaryNav a.accountinfo, body#history #primaryNav a.history, body#investorinbox #primaryNav a.investorinbox, body#giftbox #primaryNav a.giftbox {
+	background-color: #f60;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Sublocal Navigation Controls            |
+|                                          |
+------------------------------------------*/
+
+#sublocal {
+	color: #fff;
+	font-size: .9em;
+	padding: 2px 0px 2px 10px;
+	text-align: right;
+	width: 734px;
+}
+
+#sublocal ul {
+	margin: 0px;
+	padding: 0px;
+}
+
+#sublocal li {
+	display: inline;
+	list-style-type: none;
+	margin: 0px;
+	padding: 2px 0px 2px 0px;	
+}
+
+#sublocal li#help {
+	background-color: #6c0; 
+	display: inline;
+	list-style-type: none;
+	margin: 0px;
+}
+
+#sublocal li#logoff {
+	background-color: #f60;
+	border-right: 3px solid #fff;
+	display: inline;
+	list-style-type: none;
+	margin: 0px;		
+}
+
+#sublocal li.pipe {
+	display/**/: none;
+}
+
+#sublocal a {
+	border-left: 3px solid #fff;
+	color: #fff;
+	font-weight: bold;
+	margin: 0;
+	padding: 2px 10px 2px 10px;
+	text-decoration: none;
+}
+
+#sublocal a:hover {
+	background-color: #999;
+	color: #fff;
+}
+
+#sublocal a:visited {
+	color: #fff;
+}
+
+#sublocal a#active {
+	background-color: #36c;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Content Section - Div                   |
+|                                          |
+------------------------------------------*/
+
+#content {
+	padding: 12px 12px 12px 12px;
+	width: 730px;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Header Tag Controls                     |
+|                                          |
+------------------------------------------*/
+
+#content h1 {
+	color: #999;
+	font-size: 1.4em;
+	margin: 0px 0px 10px 0px;
+}
+
+#content h1 strong {
+	color: #f60;
+}
+
+#content h1 span { 
+	font-size: .5em;
+	color: #f60;
+}
+
+#content h2 {
+	color: #36c;
+	font-size: 1.2em;
+	margin: 0px 0px 10px 10px;
+}
+
+#content h3 {
+	border-bottom: 1px dashed #999;
+	color: #36c;
+	font-size: 1.0em;
+	margin: 12px 0px 6px 10px;
+	padding: 0px 0px 2px 0px;
+}
+
+#content h3.line {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 0px;
+	color: #000000;
+	font-size: 1.0em;
+	margin: 12px 0px 6px 10px;
+	padding: 2px 0px 2px 0px;
+}
+
+.dividerline {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 0px;
+	color: #000000;
+	font-size: 1.0em;
+    width: 100%;
+	padding-bottom:0px;
+	}
+
+
+#content h3.noline {
+	border-bottom: 0px;
+}
+
+#content h3 strong {
+	color: #f60;
+}
+
+#content h4 {
+	color: #f60;
+	font-size: .9em;
+	margin: 0px 0px 6px 10px;
+}
+
+#content h5 {
+	color: #666;
+	font-size: 0.9em;	
+	margin: 0px 0px 10px 10px;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Form Input Field Controls               |
+|  (Button, Text, Select, Radio, Textarea) |
+|                                          |
+------------------------------------------*/
+
+#content input {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	padding: 1px 1px 1px 3px;
+}
+
+#content input.action {
+	background-color: #36c; 
+	border-color:#ddd; 
+	border-width: 1px; 
+	color: #fff; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	overflow: visible; 
+	padding: 2px 4px 2px 4px;	
+	margin: 2px 7px 0px 0px;
+}
+
+#content input.actioninline {
+	background-color: #36c; 
+	border-color:#ddd; 
+	border-width: 1px; 
+	color: #fff; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	overflow: visible; 
+	padding: 2px 4px 2px 4px;	
+	margin: 2px 7px 0px 5px;
+}
+
+#content input.coordinatevalue {
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1.5em;
+	padding: 1px 1px 1px 3px;
+	text-align: center;
+}
+
+#content input.danger {
+	background-color: #f60; 
+	border-color:#ddd; 
+	border-width: 1px; 
+	color: #fff; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	overflow: visible; 
+	padding: 2px 4px 2px 4px;	
+	margin: 2px 7px 0px 0px;
+}
+
+#content input.disabled {
+	background-color: #fff; 
+	border-color: #666; 
+	border-width: 1px; 
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	overflow: visible; 
+	padding: 2px 4px 2px 4px;	
+	margin: 2px 7px 0px 0px;
+}
+
+#content input.pixelsubmit {
+	padding: 0px;	
+	margin: 0px;
+}
+
+#content select {
+	background-color: #fff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	padding: 2px;
+}
+
+#content textarea {
+	background-color: #fff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	padding: 2px;
+}
+
+#content textarea.noscrollbar {
+	background-color: #fff;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	overflow: hidden;
+	padding: 2px;
+}
+
+#content textarea.noscrollbar_gray {
+	background-color: #EFEFEF;
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	overflow: hidden;
+	padding: 2px;
+}
+
+.leftfloat {
+float: left; 
+width: 125px;
+margin-right:0px; 
+padding-right:0px;
+
+}
+
+.leftfloat2 {
+float: left;
+width: 250px;
+margin-left:0px;
+padding-left:0px;
+
+}
+
+.pwordinput {
+ 	background-color: #efefef;
+}
+
+
+
+/* -----------------------------------------
+|                                          |
+|  Paragraph Controls                      |
+|                                          |
+------------------------------------------*/
+
+#content p {
+	font-size: .9em;
+	margin: 0px 0px 16px 10px;
+	text-align: left;	
+	/* Mac IE5 hack \*/
+	line-height: 1.3em;
+	/* End Mac IE5 hack */
+}
+
+#content p.radiolineup {
+	font-size: 1em;
+	margin: 0px 0px 16px 25px;
+	text-align: left;
+	/* Mac IE5 hack \*/
+	line-height: 1.3em;
+	/* End Mac IE5 hack */
+}
+
+#content p span {
+	color: #f60; 
+}
+
+#content span.emphasis {
+	color: #666; 
+	font-weight: bold;
+}
+
+#content div.coordinates {
+	color: #666; 
+	font-weight: bold;
+	font-size:1.3em;
+}
+
+.learnmore {
+	background-image:  url("/images/rs/questionmark.gif");
+	background-position: 0 .2em;
+	background-repeat: no-repeat;
+	padding: 1px 10px 10px 22px;
+}
+
+#content p.dottedline {
+	border-bottom: 1px dashed #999;
+	color: #36c;	
+	margin: 12px 0px 6px 10px;
+	padding: 0px 0px 2px 0px;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Table Controls                          |
+|                                          |
+------------------------------------------*/
+
+#content table {	
+	border-collapse: collapse;
+	font-size: .9em;
+	margin: 0px 0px 14px 10px;
+}
+
+#content table.border {
+	border: 1px solid #ddd;
+}
+
+#content table.lineup td.alignright {
+	width: 18em;
+}
+
+#content table.lineup td.alignright_skylab {
+	width: 249px;
+	text-align:right;
+}
+
+#content table.lineup td.alignrighttop {
+	width: 18em;
+}
+
+#content table.lineup td.line_top_right {
+	border-top:1px solid #CCCCCC;
+}
+
+
+#content th {
+	background-color: #36c;	
+	color: #eee;
+	margin: 0px 0px 0px 0px;
+	padding: 4px 10px 4px 5px;
+	text-align: left;
+}
+
+#content th a {
+	color: #fff;
+	text-decoration: none;
+}
+
+#content th a:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+
+#content td {
+	padding: 4px 10px 4px 5px;
+	text-align: left;
+}
+
+#content td span {
+	color: #f60;
+}
+
+#content td.calendar {
+	color: #333;
+	text-align: center;
+}
+
+#content td.calendar a.pending {
+	background-color: #eee;
+	border: 1px solid #f60;
+	color: #36c;
+	font-weight: bold;
+	padding: 2px;
+	text-decoration: none;
+}
+
+#content td.calendar a.popup {
+	color: #333;
+	padding: 2px;
+	text-decoration: none;
+}
+
+#content td.calendar a.popup strong {
+	background-color: #eee;
+	border: 1px solid #f60;
+	color: #36c;
+	padding: 2px;
+}
+
+#content .altrow1 {
+	background-color: #fff;
+	margin: 0px;
+}
+
+#content .altrow2 {
+	background-color: #eee;
+	margin: 0px;
+}
+
+#content .totals {
+	background-color: #ddd;
+	color: #333;
+}
+
+#content .orange{    
+font-weight: bold;
+color: #f60;	
+margin: 0px 0px 6px 10px;
+}
+	
+
+#content table.registration {
+	margin-bottom: 0;
+}
+
+/*makes font red*/
+#content td.required {
+	color: #CC0000; 
+	font-weight:bold; 
+	font-size:11px; 
+	text-align:left;
+	padding-top: 6px;
+	width:1em;
+}
+	
+	/*light gray horizontal line*/
+#content table.lineup td.fade {
+	background-image:url("../images/rs/side_table_fade.gif"); 	
+	width:2px; background-repeat:repeat-y;
+}
+
+
+#content table.lineup td.section_heading {
+	font-size: 1.1em; 
+	font-weight:bold; 
+	color: #000000;
+}
+
+/*light gray vertical line*/
+#content table.lineup tr td.line {
+	border-top: 1px solid #CCCCCC;
+	border-bottom: 0px;
+	color: #000000;
+	font-size: 1.0em;
+	margin: 12px 0px 6px 10px;
+}
+
+
+#content table.lineup td.line_top {
+	width: 18em; 
+	border-top:1px solid #CCCCCC;
+}
+
+/*Large black font for subheaders in tables*/	
+#content table.lineup td.alignright_largfont {
+	width: 249px; 
+	font-size:1.1em; 
+	font-weight:bold; 
+	color:#000000; 
+	text-align:left;
+}
+
+/*Separate rows in a table with extra space for TreasuryDirect pages 332-SecurityTransfersConfirmationReview.tpl and 333-SecurityTransfersRejectionReview.tpl*/
+.td-extra-padding-bottom {
+	padding: 4px 10px 16px 5px !important;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Alignment Controls                      |
+|                                          |
+------------------------------------------*/
+
+#content .alignright {
+	text-align: right;
+	white-space: nowrap;
+}
+
+#content .alignrighttop {
+	padding-top: 4px;
+	text-align: right;
+	vertical-align: top;
+	white-space: nowrap;
+}
+
+#content .aligncenter {
+	text-align: center;
+}
+
+/* -----------------------------------------
+|                                          |
+|  List Controls                           |
+|                                          |
+------------------------------------------*/
+
+#content ul {
+	list-style-type: none;
+	margin: .2em .2em .2em .6em;
+	padding: 0px 0px 10px 15px;
+}
+
+#content ul li {
+	background-image:  url("../images/rs/contentbullet.gif");
+	background-position: 0 .6em;
+	background-repeat: no-repeat;
+	font-size: .9em;
+	line-height: 1.4em;
+	padding-left: .6em;
+}
+
+ #content ol li ul li, #content ol li ul li ol li ul li {
+	background-image:  url("../images/rs/contentbullet.gif");
+	background-position: 0 .6em;
+	background-repeat: no-repeat;
+	font-size: 1em;
+	line-height: 1.4em;
+	padding-left: .6em;
+	margin-bottom:0;
+	padding-bottom:0;
+}
+
+#content ol {
+	margin: .2em .2em .2em .6em;
+	padding: 0px 0px 0px 35px;
+}
+
+#content ol li {
+	background-image:none;
+	font-size: .9em;
+	line-height: 1.4em;
+	padding: 0px 0px 0px;
+	
+}
+
+
+#content ol li ul li ol li, #content ol li ol li {
+	background-image:none;
+	font-size: 1em;
+	line-height: 1.4em;
+	margin-bottom:0;
+}
+
+/*black bullets, must be used in divcontainer*/	
+#divcontainer ul li {
+	list-style:disc; 
+	background-image:none; 
+	margin: 0px 0px 0px 0px;	
+	padding: 0px 0px 0px 0px;
+	font-size:9px;		
+}
+
+/* -----------------------------------------
+|                                          |
+|  Specialized Controls                    |
+|                                          |
+------------------------------------------*/
+
+#accountnumber {
+	float: right;
+	font-size: .9em;
+	padding: 0px;
+	text-align: right;
+}
+
+#acctestabstep {
+	float: right;
+	margin: 0px 0px 10px 0px;
+	padding: 0px 0px 0px 0px;
+	width:160px;
+}
+
+/*holder for green progress bar*/
+#acctestabstep_box {
+	float: right;
+	margin: 0px 50px 10px 0px;
+	padding: 0px 0px 0px 0px;
+	width:176px;
+}
+
+#acctestabstep_box img{
+	margin: 0px 10px 0px 50px;
+}
+
+#acctestabstep img {
+	margin: 0px 0px 0px 50px;
+}
+
+#inboxmessage {
+	background-color: #eee;
+	border: 1px solid #999;
+	margin: 0px 0px 10px 10px;
+	padding: 5px 5px 0px 5px;
+}
+
+#messagebox{
+	float:right;
+	visibility:visible;
+	width:160px;
+	height:112px;
+	z-index:1;
+	border:1px solid gray;
+	padding:4px 2px 3px 5px;
+	margin:14px 0px 0px 0px;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:.9em;
+}
+
+
+
+#purchaseExpress {
+	background-color: #eee;
+	border: 1px solid #999;
+	clear: both;
+	float: right;
+	margin: 13px 0px 10px 10px;
+	padding: 5px 0px 0px 5px;
+	width: 343px;
+}
+
+#rightLearnMore {
+	clear: both;
+	float: right;
+	margin: 8px 0px 0px 10px;
+	padding: 5px 0px 0px 5px;
+}
+
+.reg {
+	font-size: 65%;
+	vertical-align:bottom;
+}
+
+#taxidcert {
+	background-color: #eee;
+	border: 1px solid #999;
+	margin: 0px 0px 10px 10px;
+	padding: 5px 5px 0px 5px;
+}
+
+#taxidcert_header {
+	background-color: #eee;
+	border: 1px solid #999;
+	margin: 0px 0px 10px 10px;
+	padding: 0px 5px 0px 5px;
+}
+
+#taxidnumber_header_orange {
+	background-color: #FFFFFF;
+	border: 1px solid #FF6600;
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 5px 0px;
+}
+
+#taxidnumber_header_orange_texthldr {
+	background-color:#FF6600; 
+	width:100%; margin-top:0px; 
+	height:30px; 
+	padding-top:10px;
+}
+
+#acctactivity_information {
+	border: 1px solid #999;
+	width: 375px;
+	padding: 5px 0px 0px 0px;
+	/* Mac IE5 hack \*/
+	line-height: 1.3em;
+	/* End Mac IE5 hack */
+}
+
+.box { 
+	background-color:#EFEFEF;
+}
+
+/*red text aligned to right*/
+#content div.required {
+	color: #CC0000; 
+	font-weight:bold; 
+	font-size:11px; 
+	text-align:right;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Information Changed Controls            |
+|                                          |
+------------------------------------------*/
+
+.changedInfo {
+	border: 1px solid #f60;
+	float: left; 
+	padding: 2px 4px 2px 4px;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Error Message Controls                  |
+|                                          |
+------------------------------------------*/
+
+#errormessage {
+	background-color: #eee;
+	background-image:  url("/images/rs/error.gif");
+	background-position: 0 .3em;
+	background-repeat: no-repeat;
+	border: 1px solid #999;
+	color: #f30;
+	margin: 0px 0px 10px 0px;
+	padding: 5px 5px 5px 5px;
+}
+
+#errormessage p {
+	margin: 0px 0px 0px 20px;
+	text-align: left;
+	/* Mac IE5 hack \*/
+	line-height: 1.3em;
+	/* End Mac IE5 hack */
+}
+
+#errormessage ul {
+	list-style-type: none;
+	margin: .2em .2em .2em .6em;
+	padding: 0px 0px 0px 6px;
+}
+
+#errormessage ul li {
+	background-image:  url("/images/rs/errorbullet.gif");
+	background-position: 0 .8em;
+	background-repeat: no-repeat;
+	color: #000;
+	padding-left: .6em;
+	/* Mac IE5 hack \*/
+	line-height: 1.6em;
+	/* End Mac IE5 hack */
+}
+
+/* -----------------------------------------
+|                                          |
+|  Information Message Controls            |
+|                                          |
+------------------------------------------*/
+
+#infomessage {
+	background-color: #eee;
+	background-image:  url("/images/rs/info.gif");
+	background-position: 0 .3em;
+	background-repeat: no-repeat;
+	border: 1px solid #999;
+	color: #36c;
+	margin: 0px 0px 10px 0px;
+	padding: 5px 5px 5px 5px;
+}
+
+#infomessage p {
+	margin: 0px 0px 0px 20px;
+	text-align: left;
+	/* Mac IE5 hack \*/
+	line-height: 1.3em;
+	/* End Mac IE5 hack */
+}
+
+#infomessage ul {
+	list-style-type: none;
+	margin: .2em .2em .2em .6em;
+	padding: 0px 0px 0px 6px;
+}
+
+#infomessage ul li {
+	background-image:  url("/images/rs/infobullet.gif");
+	background-position: 0 .8em;
+	background-repeat: no-repeat;
+	color: #000;
+	padding-left: .6em;
+	/* Mac IE5 hack \*/
+	line-height: 1.6em;
+	/* End Mac IE5 hack */
+}
+
+/* -----------------------------------------
+|                                          |
+|  Footer Section - Div                    |
+|                                          |
+------------------------------------------*/
+
+#footer {
+	clear: both;
+	padding: 0px 0px 20px 0px;
+}
+
+#footer p {
+	font-size: .8em;
+	margin: 0px;
+	padding: 12px 0px 0px 0px;
+	text-align: center;
+	width: 748px;
+}
+
+#footer ul {
+	border-top: 1px solid #ccc;
+	font-size: .8em;
+	margin: 0px;
+	padding: 10px 0px 0px 0px;
+	text-align: center;
+	width: 748px;
+}
+
+#footer li {
+	display: inline;
+	padding: 0px 2px 0px 2px;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Links Behaving Like Buttons Controls    |
+|                                          |
+------------------------------------------*/
+
+a.buttonbehavioraction {
+	border-left: 3px solid #fff;
+	color: #fff;
+	font-weight: bold;
+	margin: 0px;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;
+}
+
+a.buttonbehavioraction:link {
+	background-color: #36c;
+	color: #fff;
+}
+
+a.buttonbehavioraction:active {
+	background-color: #36c;
+	color: #fff;
+}
+
+a.buttonbehavioraction:visited {
+	background-color: #36c;
+	color: #fff;
+}
+
+a.buttonbehavioraction:hover {
+	background-color: #999;
+	color: #fff;
+}
+
+a.buttonbehaviordanger {
+	border-left: 3px solid #f00;
+	color: #fff;
+	font-weight: bold;
+	margin: 0px;
+	padding: 5px 10px 5px 10px;
+	text-decoration: none;	
+	border-color:#ddd; 
+	border-width: 1px;
+}
+
+a.buttonbehaviordanger:link {
+	background-color: #f60;
+	color: #fff;
+}
+
+a.buttonbehaviordanger:active {
+	background-color: #f60;
+	color: #fff;
+}
+
+a.buttonbehaviordanger:visited {
+	background-color: #f60;
+	color: #fff;
+}
+
+a.buttonbehaviordanger:hover {
+	background-color: #999;
+	color: #fff;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Navigational Message Control            |
+|                                          |
+------------------------------------------*/
+
+.navigationmessage {
+	color: #000;
+}
+
+.navigationmessage p {
+	font-weight: bold;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Statement Message Control               |
+|                                          |
+------------------------------------------*/
+
+.statementmessage {
+	color: #f60;
+}
+
+.statementmessage p {
+	font-weight: bold;
+}
+
+/* -----------------------------------------
+|                                          |
+|  BPDLogin Override Controls              |
+|                                          |
+------------------------------------------*/
+
+#logonerror {
+	padding: 0px 0px 10px 0px;
+	font-size: .9em;
+}
+
+#logonerror br {
+	display: none;	
+}
+
+#logonerror b.title {
+	color: #f30;
+	font-size: 1.0em;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+#logonerror b.subtitle {
+	color: #333;
+	font-size: 1.0em;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+
+#logonerror h2 {
+	color: #333;
+	font-size: 1.0em;
+	font-weight: bold;
+	margin: 0px;
+	padding: 0px;
+}
+
+#logonerror h4 {
+	color: #333;
+	font-size: 1.0em;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+
+#logonerror h5 {
+	color: #333;
+	font-size: 1.0em;
+	font-weight: normal;
+	margin: 0px;
+	padding: 0px;
+}
+
+#logonerror b.subtitle br {
+	display: block;
+	margin: 0px;
+	padding: 0px;
+}
+
+/* -----------------------------------------
+|                                          |
+|  IE  Hacks - force IE to behave          |
+|                                          |
+------------------------------------------*/
+
+.iesinglesubmithack {
+	display: none;
+	visibility: hidden;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Links Behaving Like Buttons  Table      |
+|                                          |
+------------------------------------------*/
+
+.linkbutton table td {
+	padding: 0px 0px 0px 0px;
+	text-align: left;
+}
+
+/* -----------------------------------------
+|                                          |
+|  Info Direct Controls                    |
+|                                          |
+------------------------------------------*/
+
+#infodirect_exclamation {
+	background-image:  url("/images/rs/infodirect_exclamation.gif");
+	background-position: 0em 0em;
+	background-repeat: no-repeat;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 3px solid #6c0;
+	border-left: 1px solid #999;
+	clear: both;
+	float: right;
+	height: 331px;
+	margin: 0px 0px 10px 0px;
+	width: 253px;
+	/* Mac IE5 hack \*/
+	line-height: 1.3em;
+	/* End Mac IE5 hack */
+}
+
+#infodirect_information {
+	background-image:  url("/images/rs/infodirect_information.gif");
+	background-position: 0em 0em;
+	background-repeat: no-repeat;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 3px solid #f60;
+	border-left: 1px solid #999;
+	clear: both;
+	float: right;
+	height: 331px;
+	margin: 0px 0px 10px 0px;
+	width: 253px;
+	/* Mac IE5 hack \*/
+	line-height: 1.3em;
+	/* End Mac IE5 hack */
+}
+
+#infodirect_question {
+	background-image:  url("/images/rs/infodirect_question.gif");
+	background-position: 0em 0em;
+	background-repeat: no-repeat;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 3px solid #36c;
+	border-left: 1px solid #999;
+	clear: both;
+	float: right;
+	height: 331px;
+	margin: 0px 0px 10px 0px;
+	width: 253px;
+	/* Mac IE5 hack \*/
+	line-height: 1.3em;
+	/* End Mac IE5 hack */
+}
+
+#infodirect_exclamation_cs {
+	background-image:  url("/images/rs/infodirect_exclamation.gif");
+	background-position: 0em 0em;
+	background-repeat: no-repeat;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 3px solid #6c0;
+	border-left: 1px solid #999;
+	clear: both;
+	float: left;
+	height: 331px;
+	margin: 0px 0px 10px 0px;
+	width: 253px;
+	/* Mac IE5 hack \*/
+	line-height: 1.3em;
+	/* End Mac IE5 hack */
+}
+
+#infodirect_information_cs {
+	background-image:  url("/images/rs/infodirect_information.gif");
+	background-position: 0em 0em;
+	background-repeat: no-repeat;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 3px solid #f60;
+	border-left: 1px solid #999;
+	clear: both;
+	float: left;
+	height: 331px;
+	margin: 0px 0px 10px 0px;
+	width: 253px;
+	/* Mac IE5 hack \*/
+	line-height: 1.3em;
+	/* End Mac IE5 hack */
+}
+
+#infodirect_question_cs {
+	background-image:  url("/images/rs/infodirect_question.gif");
+	background-position: 0em 0em;
+	background-repeat: no-repeat;
+	border-top: 1px solid #999;
+	border-right: 1px solid #999;
+	border-bottom: 3px solid #36c;
+	border-left: 1px solid #999;
+	clear: both;
+	float: left;
+	height: 331px;
+	margin: 0px 0px 10px 0px;
+	width: 253px;
+	/* Mac IE5 hack \*/
+	line-height: 1.3em;
+	/* End Mac IE5 hack */
+}
+
+#infodirect_exclamation  p, #infodirect_exclamation_cs p {
+	color: #333;
+	font-size: .8em;
+	margin: 35px 65px 0px 10px;
+	padding: 5px;
+	text-align: left;
+}
+
+#infodirect_information  p, #infodirect_information_cs p {
+	color: #333;
+	font-size: .8em;
+	margin: 35px 65px 0px 10px;
+	padding: 5px;
+	text-align: left;
+}
+
+#infodirect_question  p, #infodirect_question_cs p {
+	color: #333;
+	font-size: .8em;
+	margin: 35px 65px 0px 10px;
+	padding: 5px;
+	text-align: left;
+}
+
+/* -----------------------------------------
+|                                          |
+| 2_intro styles                  |
+|                                          |
+------------------------------------------*/
+
+#attention{
+	width:700px; 
+	border: 1px solid #CC0202; 
+	min-height: 70px;
+	margin-left:10px;	
+}
+
+#attention_notice{
+	width:700px; 
+	border: 1px solid #CC0202; 
+	min-height: 70px;
+	margin-left:10px;	
+}
+
+#left { 
+	float:left; 
+	background-image: url("../images/rs/attention.jpg");
+	height:48px;
+	background-repeat: no-repeat;
+	margin: 10px 0px 5px 0px; width:255px;
+	padding-right: 10px;
+}
+
+#left_reminder { 
+	float:left; 
+	background-image: url("../images/rs/reminder.jpg");
+	height:48px;
+	background-repeat: no-repeat;
+	margin: 10px 0px 5px 0px; width:255px;
+	padding-right: 10px;
+}
+
+#left_notice { 
+	float:left; 
+	background-image: url("../images/rs/notice.jpg");
+	height:48px;
+	background-repeat: no-repeat;
+	margin: 10px 0px 5px 0px; width:200px;
+	padding-right: 10px;
+}
+
+#left_notice2 { 
+	float:left; 
+	background-image: url("../images/rs/notice2.jpg");
+	height:48px;
+	background-repeat: no-repeat;
+	margin: 10px 0px 5px 0px; width:200px;
+	padding-right: 10px;
+}
+
+#right { 
+	margin-top:10px; 
+	margin-left:0px; 
+	padding-left:0px;
+}
+
+
+.section {
+	border: 1px solid #CCCCCC; 
+	margin-left:7px; 
+	margin-bottom:9px;
+}
+
+.Clear { 
+	clear: both; 
+	height: 0; 
+	overflow: 
+	hidden; width:100%;
+ }
+
+
+.textindent {
+	margin-left:45px;
+}
+
+.boxalign {
+	font:Arial, Helvetica, sans-serif; 
+	color:#FFFFFF; 
+	font-weight:bold; 
+	margin-left:20px; 
+	margin-top:20px; 
+	padding-top:5px;
+}
+
+.column {
+	float: left;
+	border: 1px solid #999999;
+	width: 26%;
+	background: #EFEFEF;
+	height: 180px;
+	margin: 0px 30px 0px 5px;
+	overflow: hidden;
+	}
+
+.columnhd {
+	float: left;
+	width: 95%;
+	padding: 0px 0px 2px 10px;
+	margin: 0px;
+	background: #fff;
+	height: 35px;
+	color: #f60;
+	font: 25px arial;
+	font-weight: bold;
+	}
+	
+.formattext {
+	color: #f60;
+	font: 25px arial;
+	font-weight: bold;
+	float:left;
+	margin-top:2px;
+	width:auto;
+}	
+		
+
+.columncontent {
+	float: left;
+	width: 85%;
+	padding: 10px 0px 0px 5px;
+	margin-top: 5px;
+	font-weight: bold;
+}
+
+.columncontent_last {	
+	float: left;
+	width: 85%;
+	padding: 20px 0px 0px 5px;
+	margin-top: 1px;
+	font-weight: bold;
+}
+
+.arrowimg	{
+	margin-left: 90px;
+	padding-top:0px;
+	margin-top:-30px;
+}
+
+
+.columnlist {	
+	float: left;
+	padding: 0px;
+	width: 100%;
+	margin-top:-5px;
+}
+
+
+.securityfeatures {
+	float: left;
+	width: 100%;
+	margin: 10px;
+	overflow: hidden;
+}
+
+.divClear {    
+	clear:both;   
+}
+
+#divcontainer {
+	margin-left: 50px;
+}
+
+.relatedboxhd {
+	float: left;
+	border: 1px solid #999999;
+	width: 95%;
+	padding: 0px 0px 0px 10px;
+	margin: 0px;
+	background: #EFEFEF;
+	margin: 0 px;
+	overflow: hidden;
+	font: 15px;
+}
+
+.relatedbox {
+	float: left;
+	border: 1px solid #999999;
+	width: 95%;
+	margin: 10px;
+	overflow: hidden;
+	padding: 0px;
+}	
+
+.relatedhd {
+	float: left;
+	width: 100%;
+	padding: 0px 0px 0px 5px;
+	margin: 0px;
+	background-color: #999999;
+	height: 35px;
+	font: 25px arial bold;
+	color:  #fff;
+}
+
+.relatedcontent {
+	float: left;
+	width: 85%;
+	padding: 5px;
+	margin: 5px;
+}
+
+/* IE */
+textarea {
+	overflow: auto;
+}
+/* non-IE */
+teatarea[name] {
+	overflow: inherit;
+}
+	

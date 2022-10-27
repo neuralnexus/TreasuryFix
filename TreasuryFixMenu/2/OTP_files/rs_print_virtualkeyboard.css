@@ -1,0 +1,16 @@
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+~                                          ~
+~  TreasuryDirect Application Stylesheet   ~
+~  For use with PRINT on Keyboard          ~
+~                                          ~
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+
+/* -----------------------------------------
+|                                          |
+|  Establish Look and Feel of Keyboard     |
+|                                          |
+------------------------------------------*/
+
+#virtual_keyboard {
+	display: none;
+}
