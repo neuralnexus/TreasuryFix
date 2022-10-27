@@ -1,5 +1,16 @@
 # TreasuryFix
 
+---- Update 10/27/22: TreasuryFixMenu can help you login when others can't! 
+https://www.wsj.com/articles/as-investors-scramble-to-buy-i-bonds-treasurydirect-site-has-outages-11666817951
+
+What do I do?
+
+1. Git clone this project or download the zip file (top right)
+2. Open TreasuryFixMenu/treasuryfix.html in your browser. 
+3. Follow the instructions on the page (Optionally, install the scripts in the original section below, these make it easy for you to auto-fill your password in the login screen)
+
+---- Older Documentation: 
+
 US Treasury Series I Bonds pay an inflation adjusted rate + a fixed rate of interest. As of 1/1/2022, the inflation adjusted rate of interest is 7.12%. 
 There is a purchase limit of $10,000 per SSN per year through TreasuryDirect.gov. 
 
@@ -19,7 +30,7 @@ There is no additional security risk from running this. No traffic is sent to my
 
 # Legal
 
-This code runs in your computer browser and only affects sessions opened from your system to the treasury direct site. Use it at your own risk; I don't offer any warranties or support. 
+All code in this project runs in your computer browser and only affects sessions opened from your system to the treasury direct site. Use it at your own risk; I don't offer any warranties or support. I do not intercept your traffic. 
 
 # Installation
 
