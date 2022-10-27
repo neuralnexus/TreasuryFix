@@ -7,7 +7,8 @@ https://www.wsj.com/articles/as-investors-scramble-to-buy-i-bonds-treasurydirect
 What do I do?
 
 1. Git clone this project or download the zip file (top right)
-2. Open TreasuryFixMenu/treasuryfix.html in your browser. 
+2. Open TreasuryFixMenu/treasuryfix.html in your browser. <img width="1312" alt="1027-web" src="https://user-images.githubusercontent.com/9088829/198370078-9f2c4ed8-31a1-410e-a3b0-a89cb837ecd6.png">
+
 3. Follow the instructions on the page (Optionally, install the scripts in the original section below, these make it easy for you to auto-fill your password in the login screen)
 
 ---- Older Documentation: 
