@@ -1,6 +1,6 @@
 # TreasuryFix
 
-###Update 10/27/22: TreasuryFixMenu can help you login when others can't! 
+## Update 10/27/22: TreasuryFixMenu can help you login to buy bonds before the deadline!
 
 https://www.wsj.com/articles/as-investors-scramble-to-buy-i-bonds-treasurydirect-site-has-outages-11666817951
 
